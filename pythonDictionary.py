@@ -9,6 +9,26 @@ dict = {
     }
 }
 
+wordMeaning = {
+    "table":("A peice of furniture","list of facts and figures"),
+    "cat": "A small animal"
+}
+
+marks = {};
+
+physics = int(input("Enter your physics marks:"))
+chemistry = int(input("Enter your chem marks: "))
+maths = int(input("Enter your maths marks: "))
+
+marks.update({"Physics":physics, "Chemistry":chemistry, "Maths":maths})
+
+print(marks);
+
+
+
+print(wordMeaning);
+print(wordMeaning.get("table")[0]);
+
 print(dict["name"]);
 print(dict["cgpa"]);
 
